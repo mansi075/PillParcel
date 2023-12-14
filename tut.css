@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #11e6f4;
+    /* background-size: cover;
+    background-repeat: no-repeat;
+ */}
+.outer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgba(0, 0, 0, 0.75); */
+}
+
+.logo {
+    background-repeat: no-repeat;
+    margin-left: 50px;
+    display: inline-block;
+}
+
+.logo img {
+    width: 170px;
+    filter: invert(100%);
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+    height: 55vh;
+}
+
+.form {
+    width: 406px;
+    height: 500px;
+    /* background-color: rgb(77 74 74 / 71%); */
+    background-color:  #2c2c2c;
+    box-shadow: 0 5px 30px black;
+    position: absolute;
+    top: 20%;
+}
+
+
+.btn {
+    text-align: center;
+    padding: 3px;
+    margin: 30px 0px 40px 30px;
+    border-style: none;
+    background-color: transparent;
+    color: beige;
+    font-size: 18px;
+    font-weight: 550;
+}
+ .formGroup {
+    display: flex;
+    justify-content: center;
+}
+
+.formGroup input {
+    border: none;
+    width: 80%;
+    border-bottom: 2px solid white;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
+}
+
+input:focus {
+    outline: none !important;
+    border-bottom: 2px solid rgb(243, 91, 91);
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+}
+
+.checkBox {
+    display: flex;
+    justify-content: center;
+    margin: 16px !important;
+}
+
+#checkbox {
+    margin-right: 10px;
+    height: 15px;
+    width: 15px;
+}
+
+.text {
+    color: rgb(199, 197, 197);
+    font-size: 13px;
+}
+
+.btn2 {
+    padding: 10px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: #d21414d1;
+    border-style: none;
+    color: white;
+    font-weight: 600;
+}
+
+.btn2:hover {
+    background-color: #df5c5c;
+}
+
+.btn button:hover {
+    border-bottom: 2px solid rgb(224, 37, 37);
+}
